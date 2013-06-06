@@ -1,0 +1,64 @@
+.kdframeworkdemos .demo-item-container {
+  overflow: hidden;
+}
+.kdframeworkdemos .demo-item {
+  float: left;
+  width: 330px;
+  height: 90px;
+  overflow: hidden;
+  padding: 7px;
+  margin: 7px;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+}
+.kdframeworkdemos .demo-item:hover {
+  border: 1px solid #CCC !important;
+  background: #E3E3E3;
+}
+.kdframeworkdemos .demo-item img {
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.kdframeworkdemos .demo-item h2 {
+  font-size: 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.kdframeworkdemos .demo-item div {
+  width: 180px;
+  cursor: default;
+}
+
+
+/* Internal */
+.kdaccordionhandle {
+  border-bottom: 1px solid #D3D3D3;
+  display: block;
+  height: 22px;
+  line-height: 22px;
+}
+.kdaccordionhandle .kdaccordiontitle {
+  float      : left;
+  cursor     : pointer;
+  font-size  : 14px;
+  font-weight: bold;
+}
+.kdaccordionhandle .icon {
+  background : url(https://koding.com/images/_kd.sprites.png) -179px -320px;
+  width      : 20px;
+  height     : 20px;
+  float      : left;
+  cursor     : pointer;
+}
+.kdaccordionview div {
+  height     : auto;
+}
+.kdaccordionpaneview {
+  margin-bottom: 20px;
+}
+.kdaccordionhandle.active .icon {
+  background-position: -179px -360px;
+}

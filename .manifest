@@ -1,0 +1,42 @@
+{
+  "devMode": true,
+  "version": "0.1",
+  "name": "KDFrameworkDemos",
+  "identifier": "com.koding.apps.kdframeworkdemos",
+  "path": "~/Applications/KDFrameworkDemos.kdapp",
+  "homepage": "fatihacet.koding.com/kdframeworkdemos",
+  "author": "Fatih Acet",
+  "repository": "git://github.com/fatihacet/kdframeworkdemos.kdapp.git",
+  "description": "KDFrameworkDemos : a Koding application created with the blank template.",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./internal/kdaccordionpanehandle.coffee",
+          "./internal/kdaccordionpane.coffee",
+          "./internal/kdaccordionview.coffee",
+          
+          "./kodepad/app/settings.coffee",
+          "./kodepad/app/core.coffee",
+          "./kodepad/app/views.coffee",
+          
+          "./app/data.coffee",
+          "./app/view.coffee",
+          
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css",
+      "./kodepad/resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  }
+}
